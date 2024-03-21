@@ -17,7 +17,7 @@
 }
 
 #banner	{
-	background-image: url('images/os-banner.png');
+	background-image: url'/images/os-banner.png';
 	background-size: cover;
 	background-position: center;
 	height: 300px;
@@ -86,7 +86,6 @@ p	{
 
 .card	{
 	box-shadow: 10px 10px 30px #32214E;
-
 }
 
 .card img {
