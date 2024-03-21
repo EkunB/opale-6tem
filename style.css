@@ -23,6 +23,10 @@
 	height: 300px;
 }
 
+body	{
+	margin: 0;
+}
+
 h1	{
 	text-align: center;
 	color: #32214E;
@@ -42,6 +46,10 @@ h3	{
 	font-family: "Bungee", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+}
+
+h3 a {
+	color: #32214E;
 }
 
 p	{
@@ -92,12 +100,18 @@ p	{
 	box-shadow: 10px 10px 30px #E2C4DE;
 }
 
-@media (max width: 768px)	{
-	.cards
+@media (max-width: 1000px)	{
+	.cards	{
+		width: 100%;
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
-@media (max width: 375px)	{
-	.cards
+@media (max-width: 800px)	{
+	.cards	{
+		width: 100%;
+		grid-template-columns: 1fr;
+	}
 }
 
 footer	{
