@@ -63,6 +63,7 @@ p	{
 	margin-left: 150px;
 	margin-right: 150px;
 	padding: 20px;
+	text-align: justify;
 }
 
 #artistes	{
@@ -98,6 +99,11 @@ p	{
 
 .card:hover	{
 	box-shadow: 10px 10px 30px #E2C4DE;
+}
+
+.card-link{
+	text-decoration: none;
+	color: inherit;
 }
 
 @media (max-width: 1000px)	{
