@@ -16,15 +16,12 @@
 	font-style: normal;
 }
 
-#banner	{
-	background-image: url'/images/os-banner.png';
-	background-size: cover;
-	background-position: center;
-	height: 300px;
-}
-
 body	{
 	margin: 0;
+}
+
+#banner img {
+	width: 100%;
 }
 
 h1	{
@@ -63,6 +60,9 @@ p	{
 #nouvelle-vague	{
 	margin-left: 150px;
 	margin-right: 150px;
+}
+
+.nouvelle-vague {
 	text-align: justify;
 }
 
